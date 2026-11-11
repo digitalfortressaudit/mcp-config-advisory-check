@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "notes": {
+      "command": "npx",
+      "args": ["-y", "@example/notes-mcp@1.4.2"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["example-fetch-mcp==0.9.1"]
+    },
+    "helper": {
+      "command": "pip",
+      "args": ["install", "example-helper-mcp==3.1.0"]
+    }
+  }
+}

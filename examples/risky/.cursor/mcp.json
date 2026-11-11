@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "floating": {
+      "command": "npx",
+      "args": ["-y", "@example/notes-mcp"]
+    },
+    "moving": {
+      "command": "npx",
+      "args": ["-y", "@example/docs-mcp@latest"]
+    }
+  }
+}

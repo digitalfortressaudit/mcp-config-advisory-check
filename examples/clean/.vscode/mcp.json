@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "docs": {
+      "type": "stdio",
+      "command": "pipx",
+      "args": ["run", "example-docs-mcp==2.0.0"]
+    },
+    "remote-demo": {
+      "type": "http",
+      "url": "https://mcp.example.invalid/mcp"
+    }
+  }
+}
