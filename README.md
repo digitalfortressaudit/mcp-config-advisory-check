@@ -8,7 +8,7 @@ Use it on configs and machines you own or are explicitly allowed to assess.
 
 An MCP client config names the program that starts each server. That program is often `npx`, `uvx`, `pipx`, or `pip`, with a package name and sometimes a version. A pinned version can still be a known-malicious release, or a release older than the fixed version in a public advisory. This checker reads the config text you point it at. It does not install the package.
 
-Two inputs are combined when you are online: a query to the [OSV](https://osv.dev/) API, and a small snapshot shipped with this script. As of 2026-11-09 the snapshot is what covers three PyPI advisories that OSV did not return for those packages. Offline mode uses the snapshot only.
+Two inputs are combined when you are online: a query to the [OSV](https://osv.dev/) API, and a small snapshot shipped with this script. As of 2026-11-11 the snapshot is what covers three PyPI advisories that OSV did not return for those packages. Offline mode uses the snapshot only.
 
 ## Quickstart
 
